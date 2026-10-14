@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const ImageClipBox = ({ src, clipClass }) => (
   <div className={clipClass}>
-    <img src={src} />
+    <img src={src} alt="Vyron cinematic world artwork" />
   </div>
 );
 
@@ -43,7 +43,7 @@ const Contact = () => {
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
 
-          <Button title="back to worlds" onClick={() => document.getElementById("worlds")?.scrollIntoView({ behavior: "smooth" })} containerClass="mt-10 cursor-pointer" />
+          <Button title="contact us" onClick={() => { window.location.href = "mailto:sierra@recoverrevenue.company?subject=Vyron%20Gaming%20Concept%20Enquiry"; }} containerClass="mt-10 cursor-pointer" />
         </div>
       </div>
     </div>
