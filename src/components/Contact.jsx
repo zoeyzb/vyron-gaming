@@ -44,6 +44,7 @@ const Contact = () => {
           />
 
           <Button title="contact us" onClick={() => { window.location.href = "mailto:sierra@recoverrevenue.company?subject=Vyron%20Gaming%20Concept%20Enquiry"; }} containerClass="mt-10 cursor-pointer" />
+          <a href="mailto:sierra@recoverrevenue.company?subject=Vyron%20Gaming%20Concept%20Enquiry" className="mt-4 font-general text-sm text-blue-50 underline-offset-4 hover:underline">sierra@recoverrevenue.company</a>
         </div>
       </div>
     </div>
