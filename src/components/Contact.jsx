@@ -43,8 +43,8 @@ const Contact = () => {
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
 
-          <Button title="contact us" onClick={() => { window.location.href = "mailto:sierra@recoverrevenue.company?subject=Vyron%20Gaming%20Concept%20Enquiry"; }} containerClass="mt-10 cursor-pointer" />
-          <a href="mailto:sierra@recoverrevenue.company?subject=Vyron%20Gaming%20Concept%20Enquiry" className="mt-4 font-general text-sm text-blue-50 underline-offset-4 hover:underline">sierra@recoverrevenue.company</a>
+          <Button title="contact us" onClick={() => { window.open("https://mail.google.com/mail/?view=cm&fs=1&to=sierra%40recoverrevenue.company&su=Vyron%20Gaming%20Concept%20Enquiry", "_blank", "noopener,noreferrer"); }} containerClass="mt-10 cursor-pointer" />
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sierra%40recoverrevenue.company&su=Vyron%20Gaming%20Concept%20Enquiry" target="_blank" rel="noopener noreferrer" className="mt-4 font-general text-sm text-blue-50 underline-offset-4 hover:underline">sierra@recoverrevenue.company</a>
         </div>
       </div>
     </div>
