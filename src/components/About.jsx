@@ -34,15 +34,15 @@ const About = () => {
         </p>
 
         <AnimatedTitle
-          title="Disc<b>o</b>ver the world's <br /> largest shared <b>a</b>dventure"
+          title="F<b>o</b>ur worlds. <br /> One epic <b>u</b>niverse"
           containerClass="mt-5 !text-black text-center"
         />
 
         <div className="about-subtext">
-          <p>The Game of Games begins—your life, now an epic MMORPG</p>
+          <p>Enter Vyron: a cinematic universe of four imagined worlds.</p>
           <p className="text-gray-500">
-            Vyron unites every player from countless games and platforms, both
-            digital and physical, into a unified Play Economy
+            From the silent reaches of Eclipse to the living frontiers of Eden,
+            discover worlds built for stories yet to be told.
           </p>
         </div>
       </div>

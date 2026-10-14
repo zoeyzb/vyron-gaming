@@ -6,7 +6,7 @@ import { TiLocationArrow } from "react-icons/ti";
 
 import Button from "./Button";
 
-const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
+const navItems = ["Worlds", "Story", "About", "Contact"];
 
 const NavBar = () => {
   // State for toggling audio and visual indicator
@@ -74,8 +74,8 @@ const NavBar = () => {
             <a href="/" className="font-bold text-xl text-white" aria-label="Vyron home">VYRON</a>
 
             <Button
-              id="product-button"
-              title="Products"
+              id="product-button" onClick={() => document.getElementById("worlds")?.scrollIntoView({ behavior: "smooth" })}
+              title="Explore worlds"
               rightIcon={<TiLocationArrow />}
               containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
             />

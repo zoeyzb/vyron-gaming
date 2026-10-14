@@ -35,15 +35,15 @@ const Contact = () => {
 
         <div className="flex flex-col items-center text-center">
           <p className="mb-10 font-general text-[10px] uppercase">
-            Join Vyron
+            The Vyron Universe
           </p>
 
           <AnimatedTitle
-            title="let&#39;s b<b>u</b>ild the <br /> new era of <br /> g<b>a</b>ming t<b>o</b>gether."
+            title="f<b>o</b>ur w<b>o</b>rlds.<br /> infinite st<b>o</b>ries."
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
 
-          <Button title="contact us" containerClass="mt-10 cursor-pointer" />
+          <Button title="back to worlds" onClick={() => document.getElementById("worlds")?.scrollIntoView({ behavior: "smooth" })} containerClass="mt-10 cursor-pointer" />
         </div>
       </div>
     </div>

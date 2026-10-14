@@ -151,12 +151,12 @@ const Hero = () => {
             </h1>
 
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-              Enter the Metagame Layer <br /> Unleash the Play Economy
+              Explore four extraordinary worlds <br /> Discover the Vyron universe
             </p>
 
             <Button
-              id="watch-trailer"
-              title="Watch trailer"
+              id="watch-trailer" onClick={() => document.getElementById("worlds")?.scrollIntoView({ behavior: "smooth" })}
+              title="Explore worlds"
               leftIcon={<TiLocationArrow />}
               containerClass="bg-yellow-300 flex-center gap-1"
             />

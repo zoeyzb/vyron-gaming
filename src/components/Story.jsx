@@ -112,8 +112,8 @@ const FloatingImage = () => {
             </p>
 
             <Button
-              id="realm-btn"
-              title="discover prologue"
+              id="realm-btn" onClick={() => document.getElementById("worlds")?.scrollIntoView({ behavior: "smooth" })}
+              title="explore worlds"
               containerClass="mt-5"
             />
           </div>
